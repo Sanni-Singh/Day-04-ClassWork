@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    background-color:#F3F4F6;
+    justify-content: center;
+    .footbox{
+        width:500px;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width:450px) {
+            width: 100%;
+        }
+        
+        .footHead{
+            display: flex;
+            gap: 1rem;
+
+            p{
+                font-size: 1.3rem;
+                font-weight: 900;
+                color: #0D9488;
+            }
+        }
+        p{
+            text-align: center;
+            color: #666E7B;
+            font-size: 1.2rem;
+        }
+        .anker{
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+
+            @media screen and (max-width:450px) {
+                gap: 1rem;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #666E7B;
+            }
+        }
+        .fonts{
+            display: flex;
+            gap: 2rem;
+            font-size: 1.5rem;
+            color: #666E7B;
+            flex-wrap: wrap;
+
+            .facebook{
+                color: red;
+            }
+        }
+    }
+}
