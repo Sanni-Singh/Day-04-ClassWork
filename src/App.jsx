@@ -1,6 +1,6 @@
 import Navi from './components/Navbar/Navbar'
 import './App.css'
-import Card from './components/Section/card'
+import Card from './components/Section/Card'
 import Data from  './components/constant/data'
 import Footer from './components/Footer/Footer'
 console.log(Data);
